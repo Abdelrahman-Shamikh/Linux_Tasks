@@ -1,0 +1,33 @@
+mkdir /home/osc/Desktop/Abdelrahman\ Emad
+cd Desktop/
+ls
+cd Abdelrahman\ Emad
+mkdir Documents
+cd Documents
+touch file1.txt file2.txt file3.txt
+ls
+cd /home/osc/Desktop/Abdelrahman\ Emad
+touch hidden_file
+mv hidden_file .hidden_file
+ls
+ls -a
+cd Documents/
+nano file1.txt
+cat file1.txt
+mkdir -
+ls
+cd /home/osc/Desktop/Abdelrahman\ Emad/Documents/-/
+ls
+cd ..
+cp -r Documents My_documents
+ls
+ls
+ls-a
+cat .hidden_file
+mv /home/osc/Desktop/Abdelrahman\ Emad/Documents/file2.txt /home/osc/Desktop/Abdelrahman\ Emad/Documents/file2.txt
+/home/osc/Desktop/Abdelrahman\ Emad/Documents/
+rm -r Abdelrahman\ Emad/
+cd 
+cd Desktop/
+ls
+
