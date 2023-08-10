@@ -1,0 +1,31 @@
+unzip Updated-Task-02.zip
+ls 
+cd Updated-Task-02/
+ls -a
+mv .level-1.tar level-1.tar
+tar -xvf level-1.tar 
+mv .level-1 level-1
+ls 
+cd level-1
+ls
+file level-2
+mv level-2 level-2.gz
+gunzip level-2.gz
+ls 
+file level-2
+mv level-2 level-2.tar
+tar -xvf level-2.tar
+cd level-2
+find . -name level-3
+cd ./gBT5u0vLT5
+file level-3
+mv level-3 level-3.bz2
+bunzip2 level-3.bz2
+file level-3
+mv level-3 level-3.tar
+tar -xvf level-3.tar
+cd level-3
+find . -size 73c 
+cd ./m7lRDpRTUJ/
+
+
