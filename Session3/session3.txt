@@ -1,0 +1,24 @@
+sudo useradd -m OSC
+sudo passwd OSC
+sudo groupadd OSC_Group
+sudo usermod -aG OSC_Group OSC
+sudo usermod -aG sudo OSC
+sudo su OSC
+mkdir permission_practice
+ls
+cd permission_practice
+touch public_file.txt private_file.txt executable_script.sh
+ls
+chmod 777 public_file
+chmod 700 private_file
+chmod 750 executable_script.sh
+ls -l
+chown osc:OSC_Group private_file.txt
+sleep 1000&
+jobs 
+kill 25044
+jobs 
+vim
+jobs
+sudo apt install neofetch
+sudo apt remove neofetch
